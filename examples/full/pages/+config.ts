@@ -4,7 +4,7 @@ import type { Config } from 'vike/types'
 import vikeReact from 'vike-react/config'
 
 // Default configs (can be overridden by pages)
-const config = {
+const config: Config = {
   // <title>
   title: 'My Vike + React App',
   // https://vike.dev/stream
@@ -13,4 +13,4 @@ const config = {
   ssr: true,
   // https://vike.dev/extends
   extends: vikeReact
-} satisfies Config
+}
